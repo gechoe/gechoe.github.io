@@ -1447,10 +1447,16 @@ pre {
   width: 100%;
 }
 
+.fh5co-accordion {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 /* Accordions */
 .fh5co-accordion .panel-title > a:hover {
   border-bottom: none !important;
 }
+
 .fh5co-accordion .panel-heading {
   background: transparent;
   position: relative;
