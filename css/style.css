@@ -26,16 +26,9 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
   }
 }
 
-.container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .text-content {
   max-width: 600px;      /* Limit the width of the text content */
   margin-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 @media screen and (max-width: 868px) {
