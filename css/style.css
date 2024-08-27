@@ -12,8 +12,6 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
   align-items: center;   /* Center items vertically */
   gap: 60px;             /* Space between image and text */
   margin-bottom: 100px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 @media screen and (max-width: 868px) {
@@ -26,6 +24,11 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .text-content {
