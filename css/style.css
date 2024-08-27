@@ -1450,6 +1450,7 @@ pre {
 .fh5co-accordion {
   padding-right: 20px;
   padding-left: 20px;
+  width: calc(100% - 10px);
 }
 
 /* Accordions */
