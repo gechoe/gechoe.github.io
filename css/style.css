@@ -79,7 +79,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
   position: absolute;
   left: 0;
   top: 20px; /* Move the line down by 20px */
-  height: calc(100% - 5px); /* Adjust the height to account for the top offset */
+  height: calc(100% - 15px); /* Adjust the height to account for the top offset */
   border-left: 3px solid #bfc7d1;
 }
 
@@ -93,6 +93,8 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 	position: relative;
 	margin: 0 0 15px 20px;
 	padding: 10px;
+  padding-left: 8px;
+  padding-right: 15px;
 	/* background: rgb(255, 255, 255); */
 	color: #4D5562;
   left: 20px;
@@ -100,13 +102,14 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 	max-width: 800px;
   /* background: #eaf0f1; */
   border: 5px solid #c7dade;
+  
 }
   
 /* Information about the timeline */
 .timeinfo {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 0px;
 	font-size: 18px;
 }
   
@@ -115,30 +118,30 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 	color: #4D5562;
 	position: relative;
 	font-size: 23px;
-  line-height: 65px;
+  line-height: 24px;
 }
 
 .timesubtitle {
 	/* color: rgb(126, 126, 126); */
 	position: relative;
 	font-size: 19px;
-	line-height: 0.5;
+	line-height: 20px;
 	/* font-style: italic; */
   color: #4D5562;
-  margin-top: -35px;
+  /* margin-top: -35px; */
 }
 
 .timetext {
-	  line-height: 1.5;
-	  margin-top: 0px;
-	  margin-bottom: 10px;
+	  line-height: 20px;
+	  /* margin-top: 0px; */
+	  /* margin-bottom: 10px; */
     font-size: 15px;
 }
 
 .timedate {
 	margin: 0px;
 	padding-top: 0px;
-  margin-top: -10px;
+  /* margin-top: -10px; */
   font-size: 15px;
 }
   
@@ -204,11 +207,15 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
   display: flex;
   justify-content: center;
   align-items: center;
+
   /* height: 100vh; Adjust as needed */
+  margin-left: 25px;
+  margin-right: 0;
 
 
-  /* flex-shrink: 0; */
-  margin-left: 15px;
+  /* flex-shrink: 0;
+  margin-left: 25px;
+  margin-right: 10px; */
 }
 
 /* Wrapper for handling flip and image transitions */
@@ -217,8 +224,11 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
   width: 300px; /* Adjust size as needed */
   height: 300px; /* Adjust size as needed */
   perspective: 1000px; /* Necessary for 3D effects */
-
-  margin-right: 15px;
+  margin: 0 auto;
+  transform-origin: center;
+  animation: flipAndTransition 1s forwards; /* Adjust duration to ensure the animation timing fits */
+  animation-delay: 2s; /* Delay flip animation for 3 seconds */
+  /* margin-right: 15px; */
 }
 
 h2, .h2 {
@@ -226,10 +236,24 @@ h2, .h2 {
   line-height: 68px;
 }
 
-@media screen and (max-width: 768px) {
+/* Media query for screen widths of 868px or less */
+@media screen and (max-width: 868px) {
+  .intro-content {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+  }
+
+  .image-container {
+    margin: 0;
+    padding: 0;
+  }
+
   .image-wrapper {
     width: 200px; /* Adjust size as needed */
     height: 200px; /* Adjust size as needed */
+    /* margin-bottom: 15px; */
   }
 }
 
@@ -264,12 +288,6 @@ h2, .h2 {
     transform: rotateY(2160deg); /* Rapid flip starts */
     opacity: 1; /* Image 1 visible */
   }
-}
-
-/* Apply the flipAndTransition animation */
-.image-wrapper {
-  animation: flipAndTransition 1s forwards; /* Adjust duration to ensure the animation timing fits */
-  animation-delay: 2s; /* Delay flip animation for 3 seconds */
 }
 
 /* Ensure the second image appears during the flip */
@@ -685,11 +703,11 @@ pre {
 
   display: flex;
   align-items: center; /* Center vertically if needed */
-  justify-content: space-between; /* Align items horizontally */
+  justify-content: center; /* Align items horizontally */
   flex-wrap: wrap; /* Allow wrapping if needed */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   #fh5co-intro {
     margin-bottom: 1em;
   }
