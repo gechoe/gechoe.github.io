@@ -247,9 +247,8 @@ h2, .h2 {
     text-align: center; /* Center text */
   }
 
-  .image-container {
-    margin: 0;
-    padding: 0;
+  .image-container {  /* Makes the profile pic disappear if the window is less than 868 px wide */
+    display: none;
   }
 
   .image-wrapper {
@@ -414,6 +413,8 @@ figure.fh5co-with-caption {
 
 figure.fh5co-with-caption img {
   margin-bottom: 0 !important;
+  width: auto;
+  height: auto;
 }
 
 figure.fh5co-with-caption figcaption {
@@ -741,7 +742,7 @@ pre {
 
 #fh5co-work .fh5co-work-wrap {
   position: relative;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 30px;
   background: #FFFFFF;
   z-index: 3;
@@ -751,8 +752,8 @@ pre {
   position: relative;
   display: block;
   float: left;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   border-bottom: none !important;
 }
 
@@ -761,7 +762,39 @@ pre {
   float: left;
   margin: 0;
   padding: 0;
+  width: 400px;
+  height: 330px;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  #fh5co-work .fh5co-work-item img {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 230px;
+    border-radius: 20px;
+  }
+
+  #fh5co-work .fh5co-work-item .fh5co-overlay-text {
+    margin-top: -40px !important;
+  }
+
+  #fh5co-work .fh5co-work-item .fh5co-overlay-text .fh5co-categories {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #fh5co-work .fh5co-work-item img {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 170px;
+    border-radius: 20px;
+  }
 }
 
 #fh5co-work .fh5co-work-item:hover, #fh5co-work .fh5co-work-item:focus, #fh5co-work .fh5co-work-item:active {
@@ -787,7 +820,7 @@ pre {
 #fh5co-work .fh5co-work-item .fh5co-overlay-text {
   text-align: center;
   top: 50%;
-  margin-top: -36px;
+  margin-top: -90px;
   z-index: 56;
   width: 100%;
   padding: 0 30px;

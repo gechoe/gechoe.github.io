@@ -8,14 +8,14 @@ window.timelineElements = [
         timetext: "Developed expertise in Windows and Linux systems administration, scripting (Python, PowerShell, Bash), and SQL. Enhanced my proficiency in site reliability engineering, configuration management, cloud computing, virtualization, and security and risk management."
 		// timetext: "8 week program to learn about DevOps principles, Agile development, and CI/CD pipeline. Developed projects with AWS console and GitHub."
     },
-    {
-        key: 1,
-        timetitle: "Web3 Security Data Analytics Extern",
-		timesubtitle: "Webacy",
-		timedate:"July 2024 - August 2024",
-        image: "../images/logo_webacy.png",
-		timetext: "Gained knowledge in Web3 concepts (blockchain, smart contracts, related technologies, etc.). Analyzed and labeled smart contract vulnerabilities, refining skills in data categorization and risk assessment. Conducted frequency and correlation analysis to identify prevalent vulnerabilities, mastering data manipulation and statistical tools. Applied unsupervised machine learning for cluster analysis, uncovering patterns in smart contracts to effectively profile risks."
-    },
+    // {
+    //     key: 1,
+    //     timetitle: "Web3 Security Data Analytics Extern",
+	// 	timesubtitle: "Webacy",
+	// 	timedate:"July 2024 - August 2024",
+    //     image: "../images/logo_webacy.png",
+	// 	timetext: "Gained knowledge in Web3 concepts (blockchain, smart contracts, related technologies, etc.). Analyzed and labeled smart contract vulnerabilities, refining skills in data categorization and risk assessment. Conducted frequency and correlation analysis to identify prevalent vulnerabilities, mastering data manipulation and statistical tools. Applied unsupervised machine learning for cluster analysis, uncovering patterns in smart contracts to effectively profile risks."
+    // },
     {
         key: 2,
         timetitle: "Software Engineering Summer Analyst",
