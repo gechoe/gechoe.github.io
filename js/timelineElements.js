@@ -1,11 +1,11 @@
 window.timelineElements = [
     {
         key: 1,
-        timetitle: "Associate Systems Engineer",
-		timesubtitle: "Fidelity Investments LEAP Program",
+        timetitle: "Associate Engineer (Systems Engineer & Full Stack Engineer)",
+		timesubtitle: "Fidelity Investments",
 		timedate:"June 2024 - Present",
         image: "../images/logo_fidelity.png",
-        timetext: "Developed expertise in Windows and Linux systems administration, scripting (Python, PowerShell, Bash), and SQL. Enhanced my proficiency in site reliability engineering, configuration management, cloud computing, virtualization, and security and risk management."
+        timetext: "Working in Cloud Platform's Artificial Intelligence team. Developed expertise in Windows and Linux systems administration, scripting (Python, PowerShell, Bash), and SQL. Enhanced my proficiency in site reliability engineering, configuration management, cloud computing, virtualization, and security and risk management."
 		// timetext: "8 week program to learn about DevOps principles, Agile development, and CI/CD pipeline. Developed projects with AWS console and GitHub."
     },
     // {
