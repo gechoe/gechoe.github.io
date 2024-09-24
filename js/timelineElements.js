@@ -1,17 +1,26 @@
 window.timelineElements = [
     {
         key: 1,
-        timetitle: "Associate Engineer (Systems Engineer & Full Stack Engineer)",
+        timetitle: "Associate Engineer (Full Stack Engineer & Systems Engineer)",
 		timesubtitle: "Fidelity Investments",
 		timedate:"June 2024 - Present",
         image: "../images/logo_fidelity.png",
-        timetext: "Working in Cloud Platform's Artificial Intelligence team. Developed expertise in Windows and Linux systems administration, scripting (Python, PowerShell, Bash), and SQL. Enhanced my proficiency in site reliability engineering, configuration management, cloud computing, virtualization, and security and risk management."
+        timetext: "Working in Cloud Platform's Artificial Intelligence team. Gained knowledge on Generative AI, Large Language Models (LLMs), Prompt Engineering, and Retrieval Augmented Generation (RAG). Developed expertise in Windows and Linux systems administration, scripting (Python, PowerShell, Bash), and SQL. Enhanced my proficiency in site reliability engineering, configuration management, cloud computing, virtualization, and security and risk management."
 		// timetext: "8 week program to learn about DevOps principles, Agile development, and CI/CD pipeline. Developed projects with AWS console and GitHub."
     },
     {
         key: 2,
-        timetitle: "Web3 Security Data Analytics Extern",
-		timesubtitle: "Webacy",
+        timetitle: "Augmented Reality Development Extern/Fellow",
+		timesubtitle: "Extern x Snap Inc.",
+		timedate: "",
+        // September 2024 - October 2024",
+        image: "../images/logo_snap.png",
+		timetext: "Engaged in weekly workshops with industry professionals to gain knowledge in Augmented Reality (AR). Developed Augmented Reality lenses and experiences using Snap’s Lens Studio."
+    },
+    {
+        key: 2,
+        timetitle: "Web3 Security Data Analytics Extern/Fellow",
+		timesubtitle: "Extern x Webacy",
 		timedate: "",
         // July 2024 - August 2024",
         image: "../images/logo_webacy.png",
