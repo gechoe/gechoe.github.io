@@ -3,19 +3,21 @@ window.timelineElements = [
         key: 1,
         timetitle: "Associate Engineer (Full Stack Engineer & Systems Engineer)",
 		timesubtitle: "Fidelity Investments",
-		timedate:"June 2024 - Present",
+		timedate:"June 2024 - November 2024",
         image: "../images/logo_fidelity.png",
         timetext: "Working in Cloud Platform's Artificial Intelligence team. Gained knowledge on Generative AI, Large Language Models (LLMs), Prompt Engineering, and Retrieval Augmented Generation (RAG). Developed expertise in Windows and Linux systems administration, scripting (Python, PowerShell, Bash), and SQL. Enhanced my proficiency in site reliability engineering, configuration management, cloud computing, virtualization, and security and risk management."
-		// timetext: "8 week program to learn about DevOps principles, Agile development, and CI/CD pipeline. Developed projects with AWS console and GitHub."
+		// timetext: "First 8 weeks involved being a part of the LEAP program to strengthen my Systems Engineering skills (learned about DevOps principles, Agile development, CI/CD pipeline, etc)."
     },
     {
         key: 2,
         timetitle: "Augmented Reality Development Extern/Fellow",
 		timesubtitle: "Extern x Snap Inc.",
 		timedate: "",
-        // September 2024 - October 2024",
+        // September 2024 - November 2024",
+        // Start date: September 23, 2024
+        // End date: November 05, 2024
         image: "../images/logo_snap.png",
-		timetext: "Engaged in weekly workshops with industry professionals to gain knowledge in Augmented Reality (AR). Developed Augmented Reality lenses and experiences using Snap’s Lens Studio."
+		timetext: "Engaged in weekly workshops with industry professionals to learn more about Augmented Reality and Virtual Reality (AR & VR). Developed Augmented Reality lenses and experiences using Snap’s Lens Studio."
     },
     {
         key: 2,
@@ -23,8 +25,10 @@ window.timelineElements = [
 		timesubtitle: "Extern x Webacy",
 		timedate: "",
         // July 2024 - August 2024",
+        // Start date: July 29, 2024
+        // End date: August 26, 2024
         image: "../images/logo_webacy.png",
-		timetext: "Gained knowledge in Web3 concepts (blockchain, smart contracts, related technologies, etc.). Analyzed and labeled smart contract vulnerabilities, refining skills in data categorization and risk assessment. Conducted frequency and correlation analysis to identify prevalent vulnerabilities, mastering data manipulation and statistical tools. Applied unsupervised machine learning for cluster analysis, uncovering patterns in smart contracts to effectively profile risks."
+		timetext: "Deepended understanding of Web3 concepts (blockchain, smart contracts, related technologies, etc.). Analyzed and labeled smart contract vulnerabilities, refining skills in data categorization and risk assessment. Conducted frequency and correlation analysis to identify prevalent vulnerabilities, mastering data manipulation and statistical tools. Applied unsupervised machine learning for cluster analysis, uncovering patterns in smart contracts to effectively profile risks."
     },
     {
         key: 3,
