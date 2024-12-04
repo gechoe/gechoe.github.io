@@ -28,7 +28,7 @@ window.timelineElements = [
         // Start date: July 29, 2024
         // End date: August 26, 2024
         image: "../images/logo_webacy.png",
-		timetext: "Deepended understanding of Web3 concepts (blockchain, smart contracts, related technologies, etc.). Analyzed and labeled smart contract vulnerabilities, refining skills in data categorization and risk assessment. Conducted frequency and correlation analysis to identify prevalent vulnerabilities, mastering data manipulation and statistical tools. Applied unsupervised machine learning for cluster analysis, uncovering patterns in smart contracts to effectively profile risks."
+		timetext: "Deepend understanding of Web3 concepts (blockchain, smart contracts, related technologies, etc.). Analyzed and labeled smart contract vulnerabilities, refining skills in data categorization and risk assessment. Conducted frequency and correlation analysis to identify prevalent vulnerabilities, mastering data manipulation and statistical tools. Applied unsupervised machine learning for cluster analysis, uncovering patterns in smart contracts to effectively profile risks."
     },
     {
         key: 3,
