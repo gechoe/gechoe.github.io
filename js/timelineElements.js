@@ -6,7 +6,7 @@ window.timelineElements = [
 		timedate:"June 2024 - November 2024",
         image: "../images/logo_fidelity.png",
         timetext: "Working in Cloud Platform's Artificial Intelligence team. Gained knowledge on Generative AI, Large Language Models (LLMs), Prompt Engineering, and Retrieval Augmented Generation (RAG). Developed expertise in Windows and Linux systems administration, scripting (Python, PowerShell, Bash), and SQL. Enhanced my proficiency in site reliability engineering, configuration management, cloud computing, virtualization, and security and risk management."
-		// timetext: "First 8 weeks involved being a part of the LEAP program to strengthen my Systems Engineering skills (learned about DevOps principles, Agile development, CI/CD pipeline, etc)."
+		// timetext: "First 8 weeks involved being a part of the LEAP program to strengthen my Systems Engineering skills (learned about DevOps principles, Agile development, CI/CD pipeline, etc). Was originally assigned a Systems Engineer role, but due to a change in the team's needs and versatility in my skillset, I was pivoted to a Full Stack Engineer role."
     },
     {
         key: 2,
